@@ -20,12 +20,15 @@ justify-content:space-evenly;
 
 }
 #end img{
+    display: contents;
+    justify-content: space-evenly;
+
     
 
 }
 #button{
-height: 200px;
-width: 80px;
+height: 80px;
+width: 200px;
 
 }
 #style{
@@ -52,35 +55,34 @@ display: flex;
 justify-content: space-evenly;
 }
 #place{
-color: blueviolet;
-border: solid;
-height: max-content;
-
+display: flex;
+justify-content: space-between;
 
 }
 #black{
 word-spacing: 20px;
 
 }
-#list{
-gap: 50px;
+
+#input img{
+height: 20px;
+width: 20px;
 
 
 }
-#space{
-color: blue;
+#list{
+display: flex;
+justify-content: space-evenly;
+
 
 }
 #container{
-height: 900px;
-width:400px;
-background-color: black;
-
+display: flex;
+justify-content: space-between;
 
 }
-#input img{
-height: 200px;
-width: 500px;
-
+#main{
+display: flex;
+justify-content: space-between;
 
 }
